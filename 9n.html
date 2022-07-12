@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>9.N Wikipedia</title>
+        <meta name="description" content="Es ist die Wikipedia Page der Klasse 9.N">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+   </head>
+<style>
+.top-top { background-color:black;width:100%;} 
+.top-middle { background-color:red;width:100%;}
+.top-bottom { background-color:orange;width:100%;}
+h1 {
+    margin:0;
+    background-color: lime;
+}
+@font-face {
+	font-family: "Linux Libertine";
+	src: url("fonts/LinLibertine_RZ.woff") format('woff');
+}
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+}
+
+a:active,a:hover {
+	outline: 0;
+}
+b {
+	font-weight: bold;
+}		
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+small {
+	font-size: 80%;
+}
+audio,canvas,iframe,img,svg,video {
+	vertical-align: middle;
+}
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+input {
+	line-height: normal;
+}
+html {
+	color: #222;
+	font-size: 1em;
+	line-height: 1.4;
+}
+::-moz-selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+::selection {
+	background: #b3d4fc;
+	text-shadow: none;
+}
+img {
+	vertical-align: middle;
+}
+.clearfix:before,.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+@media print {
+	*,*:before,*:after {
+		background: transparent !important;
+		color: #000 !important;
+		box-shadow: none !important;
+		text-shadow: none !important;
+	}
+	a,a:visited {
+		text-decoration: underline;
+	}
+	a[href]:after {
+		content: " (" attr(href) ")";
+	}
+	a[href^="#"]:after {
+		content: "";
+	}
+	img {
+		page-break-inside: avoid;
+	}
+	img {
+		max-width: 100% !important;
+	}
+	p,h2,h3 {
+		orphans: 3;
+		widows: 3;
+	}
+	h2,h3 {
+		page-break-after: avoid;
+	}
+}
+h1, h2, h3 {
+	color: #000;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	overflow: hidden;
+	padding-top: 0.5em;
+	padding-bottom: 0.17em;
+}
+.article h1 {
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	border-bottom: 1px solid #a2a9b1;
+}
+.article h2 {
+	font-size: 1.6em;
+	margin: 0.5em 0 0.5em 0;
+	font-family: 'Linux Libertine','Georgia','Times',serif;
+	border-bottom: 1px solid #a2a9b1;
+	line-height: 1.4em;
+	padding-bottom: 0em;
+}
+.article h3 {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.article p.roleNote {
+	padding: 1em 0 0 1.6em;
+	font-style: italic;
+}
+p.siteSub {
+	font-size: 92%;
+}
+body {
+	background: url(img/body-top.png) repeat-x top left #f6f6f6;
+}
+ul {
+	list-style-type: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0.3em 0 0 0;
+}
+h1 {
+	line-height: 1.3;
+	margin-bottom: 0.25em;
+	padding: 0;
+	letter-spacing: 0;
+	font-size: 2.3em;
+}
+a, a:visited {
+	color: #0645ad;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.wrapAll {
+	width: 100%.
+}
+.sidebar {
+	float: left;
+	width: 9em;
+	padding: 3px 1.5em 10px 1.3em;
+	position: absolute;
+}
+.sidebar h3 {
+	font-size: 0.75em;
+	color: #4d4d4d;
+	font-weight: normal;
+	margin: 0.5em 0 0 0;
+	padding: 0.25em 0;
+	cursor: default;
+	border: 0;
+	border-bottom: 1px solid #D8D8D8;
+}
+.sidebar li {
+	line-height: 1.125em;
+	margin: 0;
+	padding: 0.25em 0;
+	font-size: 0.75em;
+	word-wrap: break-word;
+}
+div.articleRight {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	float: right;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+	line-height: 1.4em;
+	padding: 3px;
+	font-size: 94%;
+	margin: 0 0 5px 15px;
+	text-align: left;
+}
+div.articleRightInner {
+	border: 1px solid #c8ccd1;
+	padding: 3px;
+	background-color: #f8f9fa;
+	font-size: 94%;
+	text-align: center;
+	overflow: hidden;
+}
+.navigation {
+	padding: 0.15em 0 0 0.45em;
+}
+.mainsection {
+	margin: 0 0 0 11em;
+}
+.headerLinks {
+	text-align: right;
+	padding: 0.8em 1.4em;
+	font-size: 0.72em;
+	color: #777;
+	letter-spacing: 0.017em;
+}
+.tabs {
+}
+.tabs ul li a {
+	display: block;
+	background: url(img/blue-gradient.png) bottom left repeat-x transparent;
+	font-size: 0.85em;
+	padding: 1em 0.5em 0;
+	line-height: 2em;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	border-bottom: 1px solid #A7D7F9;
+}
+.tabs ul li a.active {
+	background: #FFF;
+	border-bottom-color: transparent;
+}
+.tabs ul {
+	display: inline-block;
+	background: url(img/tab-separator.png) repeat-x top left transparent;
+	letter-spacing: 0;
+	margin: 0;
+	padding: 0 1px 0 0;
+}
+.tabs ul li {
+	margin: 0;
+	padding: 0;
+	white-space: nowrap;
+	display: inline-block;
+	float: left;
+	margin: 0 1px 0 0px;
+}
+.tabs ul {
+}
+.tabsLeft {
+	line-height: 0;
+	float: left;
+}
+#simpleSearch {
+	margin: 1em 1em 0em 0.5em;
+	display: block;
+	width: 267px;
+	height: 23px;
+	padding: 0 0 0 3px;
+	float: right;
+	overflow: hidden;
+	border: solid 1px #aaa;
+	background: #F6F6F6;
+	background: -moz-linear-gradient(top, #F6F6F6 0%, #FFFFFF 100%);
+	background: -webkit-linear-gradient(top, #F6F6F6 0%, #FFFFFF 100%);
+	background: linear-gradient(to bottom, #F6F6F6 0%, #FFFFFF 100%);
+}
+#searchInput {
+	background: transparent;
+	border: none;
+	vertical-align: top;
+	height: 23px;
+	width: 239px;
+	font-size: 0.8em;
+}
+.tabsRight {
+	float: right;
+	line-height: 0;
+}
+.article {
+	padding: 1.25em 1.5em 1.5em 1.5em;
+	border-left: 1px solid #a7d7f9;
+	background: #FFF;
+	line-height: 1.6;
+	font-size: 0.875em;
+	border-top: 1px solid #a7d7f9;
+	border-bottom: 1px solid #a7d7f9;
+}
+.article p {
+	line-height: inherit;
+	margin: 0.5em 0;
+}
+.contentsPanel {
+	border: 1px solid #a2a9b1;
+	background-color: #f8f9fa;
+	padding: 5px;
+	font-size: 95%;
+	position: relative;
+	line-height: 1.7em;
+	width: 280px;
+}
+.contentsHeader {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+.contentsPanel ul li span {
+	display: inline-block;
+	margin-right: 8px;
+}
+.contentsPanel ul li {
+}
+.contentsPanel ul {
+	padding: 0 0 5px 5px;
+}
+.contentsPanel ul li ul{
+}
+.contentsPanel ul li ul li {
+	padding: 0 0 0 25px;
+}
+.pagefooter {
+	padding: 1.5em 1.3em 2em;
+	font-size: 75%;
+	line-height: 2em;
+}
+.pagefooter a {
+	display: inline-block;
+	margin-right: 1em;	
+}
+	
+@media (max-width:629px) {
+  img#schüler {
+    display: none;
+  }
+}
+@media screen and (max-width: 850px) {
+	#searchInput {
+		width: 110px;
+	}
+	#simpleSearch {
+		width: 138px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.tabsRight {
+		display: none;
+	}
+}
+@media screen and (max-width: 550px) {
+	.sidebar {
+		width: 6em;
+		padding: 3px 0.5em 10px 0.5em;
+	}
+	.mainsection {
+		margin: 0 0 0 7em;
+	}
+	.contentsPanel {
+		width: auto;
+	}
+}
+@media screen and (max-width: 400px) {
+	#simpleSearch {
+		display: none;
+	}
+}
+</style>
+
+
+
+
+<body style="background-color:white; margin:0px;">
+
+
+<div class="top-top">
+<br><br>
+</div>
+<div class="top-middle">
+<br><br>
+</div>
+<div class="top-bottom">
+<br><br>
+</div>
+
+<h1 style="text-align:center; background-color:grey;">A 9.N Wikipedia</h1>
+
+		<div class="wrapAll clearfix">
+			<div class="sidebar">
+				<div class="navigation">
+					<ul>
+						<li><a href="#">Main page</a></li>
+						<li><a href="#">Contents</a></li>
+						<li><a href="#">Featured content</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portal</a></li>
+					</ul>
+					<h3>Interaction</h3>
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Portal</a></li>
+					</ul>
+				</div>
+
+			
+			</div>
+			<div class="mainsection">
+				<div class="headerLinks">
+				</div>
+				<div class="tabs clearfix">
+					<div class="tabsLeft">
+						<ul>
+							<li><a href="#" class="active">Article</a></li>
+							<li><a href="#">Talk</a></li>					
+						</ul>
+					</div>
+					<div id="simpleSearch">
+						<input type="text" name="searchInput" id="searchInput" placeholder="Search Wikipedia" size="12" />
+						<div id="submitSearch"></div>
+					</div>
+					<div class="tabsRight">
+						<ul>
+							<li><a href="#" class="active">Read</a></li>
+							<li><a href="#">View source</a></li>				
+							<li><a href="#">View history</a></li>				
+						</ul>
+					</div>
+				
+				</div>
+				<div class="article">
+					<h1>Die Geschichte der Klasse 9.N</h1>
+					<small>2022.jun.10</small>
+					<p class="siteSub">Aus Wikipedia, die frei encyclopedia</p>
+					<p class="roleNote">Dieser Artikel ist über die Klasse 9.N</p>
+
+					<div class="articleRight">
+						<div class="articleRightInner">
+							<img src="anon's%20website_files/sch.jpg" id="schüler" alt="photo" />
+						</div>
+						Es ist ein Foto über einen random Schüler
+					</div>
+					<p>Diese Klasse hat sich im Jahr 2021 den August 23 gebildet in "gólya tábor" und besteht aus 2 Gruppen: die Anfänger und die fortschrittlich.</p>
+					<p>Ich selbst habe nur die Chance bekommen, um in die Anfänger Gruppe teilzunehmen, aber ich fühle mich glücklich über es, weil meine Klassenkameraden die beste sind, sie nette, humorvolle, aufrichtige Menschen sind, mit dem alle sich befreundet will.</p>
+                    <p>Zuerst hatte ich Angst, um die neuen Menschen kennenzulernen, aber später erkannte ich, dass es nichts darüber ich Angst haben sollen gibt</p>
+					<div class="contentsPanel">
+						<div class="contentsHeader">Contents</div>
+						<ul>
+							<li>
+							<span>1</span><a href="#Erste">Unser erstes Jahr</a>
+							<ul>
+							<li><span>1.1</span><a href="#Regel">Regel</a> </li>
+							<li><span>1.2</span><a href="#Lehrer">Lehrerinnen</a> </li>
+							<li><span>1.3</span><a href="#Gegend">Die Gegend</a> </li>
+							<li><span>1.4</span><a href="#Program">Klassenprogrammen</a></li>
+							<li><span>1.5</span><a href="#Stunde">Stunde</a></li>
+							<li><span>1.6</span><a href="#Prüfung">Grundprüfung</a></li>
+							<li><span>1.7</span><a href="#Mitschüler">Mitschüler</a></li>
+							</ul>
+							</li>
+							<li><span>2</span><a href="#NY">9.NY</a></li>
+							<li><span>3</span><a href="#Zukunft">Unsre Zukunft</a></li>
+						</ul>
+					</div>
+					<h2 id="Erste">Unser erstes Jahr</h2>
+                    <h3 id="Regel">Regel</h3>
+                    <p>Leider kann ich nichts Spezifisches über unsere Schule schreiben, ohne mich selbst oder euch zu doxolisieren, also werde ich nur die Ereignisse, und die Leute beschreiben.</p>
+					<h3 id="Lehrer">Lehrer und Lehrerinnen</h3>
+					<p>Unsre Lehrerinnen sind toll, denn sie unterrichten sehr verständlich, und lustig. Wir haben 5 Deutschlehrerinnen, und alle fünf sind sehr freundlich. Letztes Jahr, als ich die Klasse 8.C besucht habe, hatte ich einige Lehrer, den ich nicht mochte, aber ich habe dieses Gefühl schon vergessen.</p>
+                  <p><b>Unser Sportlehrer</b> : Sein Name ist Mátyás. Davor kannte ich keinen coolen, freundlichen Lehrer wie ihn. Er ist nicht nur cool und freundlich, sondern strebt auch danach, dass wir unser Bestes geben. Obwohl wir fast jeden Ball in der Nachbarschaft geschossen haben, mag er uns immernoch. Er unterrichtet mich seit neun Jahren, und die besten, lustigsten Momente meiner Schulzeit waren während seines Unterrichts. Ich hoffe, dass die anderen Schüler so gut Lehrer wie Mátyás haben</p>
+					<h3 id="Gegend">Die Gegend</h3>
+                                        <p>Wir haben kein Klassenzimmer, aber viele unserer Stunden befinden sich im Gebäude C.</p>
+                                        <p>Ich bin sicher, dass alle wissen, dass das Gebäude C schlecht ist.</p>
+                                        <ul>
+                                            <li> - Es stinkt immer
+                                            <li> - Es sieht hässlich aus
+                                            <li> - Die Kinder sind immer laut draußen
+                                        </ul>
+                                        <p>Ich finde, dass es wirklich schlecht ist, die einzige guter Ding im Gebäude C ist, dass die Mensa und das Büfe in der Nähe ist.</p>
+                                        <p>Glücklicherweise bekommen wir ein besser Klassenzimmer nächstes Jahr im Gebäude A. Das Gebäude A ist sehr modern, und sieht sehr gut aus, und ich kann nur Vorteile darüber auflisten.</p>
+					<h3 id="Program">Klassenprogrammen</h3>
+					<p>Unsre Klassenlehrerin plant, und organisiert gute Klassenprogrammen. Im ersten Jahr haben wir zweimal ins Theater gegangen (ich habe nur die erste mal teilgenommen, aber es hat mir gefallen), das schöne Budapest besichtigt (Es war sehr interessant, aber am Ende gab es zu viel Info, die wir bemerken musste, dass ich viel vergessen habe), und zweimal nach Mátrafüred gegangen</p>
+                    <p>Das "Urlaub" in Mátrafüred war sehr gut. Nun, ich glaube, dass es länger sein sollte. Nur 1,5 Tage, was konnten wir machen, wir haben uns kaum an den Ort gewöhnt, an dem wir übernachtet haben. Ich hoffe, dass nächstes Mal wir länger bleiben<p>
+                    <h3 id="Stunde">Stunden</h3>
+                            <p>Unsre Stunden sind sehr witzig, und wir haben uns an ein paar Dinge gewöhnt, wie z.B: "Kann ich beginnen", "Der Schneeball","Hängen Schüler", "Das wunderbare schöne lila Buch", "Die Papiere von Frau Vajda" , ...</p>
+                            <p>Obwohl die Stunden sehr witzig sind, lernen wir viel von unseren Lehrerinnen, deshalb haben wir so gut bei der <a href="#Prüfung">Grundprüfung </a>erreicht</p>
+                            <h3 id="Prüfung">Grundprüfung</h3>
+                            <p>Wir haben das ganze Jahr für diese kleine Prüfung gelernt, aber es kommt endlich zum Ende. Obwohl einige Schüler wie immer nicht geschafft haben, waren die Ergebnisse gut. Wir hoffen, dass die Schüler, die nicht geschafft haben, im August schaffen, sonst unsere Klasse nicht wohl ohne sie wird.</p>
+                           
+					<h3 id="Mitschüler">Mitschüler</h3>
+						<p>Ich habe die tollsten Mitschüler, und ich möchte über einige etwas sagen, die mir es erlaubt:</p>
+					<small>Es ist in alphabetischer Reihenfolge :)</small>
+					<ul>
+						<li> -<b> Barni </b>: Ein sehr schöner und elegannter Mann, und er ist genauso heiß wie Joe Biden.</li>
+						<li> -<b> Csongi </b>: Ein Sigma, ein Alpha, viele denken, dass er ein Gott ist, villeicht sich Skipper darauf basierte.</li>
+						<li> -<b> Edward </b>: Deutsches Kind.</li>
+						<li> -<b> Eszto </b>: Ich denke, sie ist freundlich, hilfsbereitig, lustig und das macht sie zu einer so netten Freundin zu haben. Sie ist jemand mit dem alle gut auskommt.</li>
+						<li> -<b> Ferdi </b>: Er ist genauso wie Kowalski.</li>
+						<li> -<b> Huba </b>: Er ist ähnlich wie Skipper, aber er ist dripper als Skipper, besonders seine schuhe.</li>
+						<li> -<b> Jázmin </b>: Sie tanzt auch sehr gut und es freut nich sehr, dass ich sie meinem Freund nennen kann. Es ist etwas Besonderes, dass ihre Güte über ihre Umwelt immer hinausgeht.</li>
+						<li> -<b> Kata </b>: Sie tanzt sehr prachtvolle, und sie ist sehr nett klug und sie spricht sehr gut Deutsch. Aber mag sie Horthy auch?</li>
+						<li> -<b> Koszti </b>: Er ist Zetis, Hubas und viele aderer Freund. Warum? Weil er der Freund ist, den alle braucht. Sein Name ist Koszti.</li>
+						<li> -<b> Lili </b>: Sehr Gut, etwas supermacht?</li>
+						<li> -<b> Mira und Keli </b>: Ich habe sie von Ethik gekannt, aber nicht kennenzugelernt. In der Klasse 9.N war ich ausgezeichnet sie kennenzulernen, sie sind eine der coolsten meiner Freunde. Bei sie kann man sich selbst sein, und dafür bewundere ich sie sehr. ich kann mit sicherheit sagen: die besten</li>
+						<li> -<b> Rebeka </b>: Sie ist sehr toll, und klug, und witzig. Leider haben wir nicht dieselbe Gruppe besucht, aber in den Pausen und bei Programmen, Ich entdeckte, wie großartig sie ist.</li>
+						<li> -<b> Réka </b>: Sie ist sehr nett, ich fühle mich glücklich, dass ich in dieselbe Gruppe wie sie teilgenommen habe. Und wenn sie Kaffe tinkt, ist sie nicht müde.</li>
+						<li> -<b> Viki </b>: Ich kenne sie seitdem, ich die Schule besuche, sie sehr nett, und es gut ist, mit sie zu reden. --> A Hölgy </li>
+						<li> -<b> Zsanna </b>: Die beste.</li>
+						<li> -<b> Zoli </b>: Der tollste, freestyle Mann, den ich kenne. Er mag linux auch.</li>	
+					</ul>
+					<p>Ich möchte mehr über meine Klassenkamaraden sprechen aber, ich habe schon keine Freizeit</p>
+					
+					<h2 id="NY">9.NY</h2>
+                            <p>Als ich und meine Klassenkameraden die 8. Klasse beendeten, verloren wir nicht alle unsere Freunde, sondern viele von ihnen blieben in dieser Schule nur im Neolatin-Teil (NY)</p>
+                            <p>Wir treffen uns oft in der großen Pause.</p>
+                            <h2 id="Zukunft">Unsere Zukunft</h2>
+                            <p>Es ist uns gelungen, uns so viel Angst zu machen, und aus guten Gründen hat es die Macht, unser Leben auf eine Weise zu verändern, die wir nicht erwartet haben, aber es ist definitiv vorbei. Für die Leute, die nicht bestanden haben, können wir nur hoffen, dass sie es im August schaffen. In Zukunft werden wir immer mehr wichtige Prüfungen haben und immer mehr lernen müssen, aber im Moment sollen wir einfach unsere Sommerpause genießen.</p>
+					
+				</div>
+				<div class="pagefooter">
+					<div class="footerlinks">
+						<a href="https://kzeti.xyz/">Mein Homepage</a> <a href="https://www.reddit.com/r/Memes/">Memes</a> <a href="https://kzeti.xyz/Music.html">Musik</a>
+					</div>
+				</div>
+			
+			
+			</div>		
+		</div>
+
+
+<div class="top-top">
+<br><br>
+</div>
+<div class="top-middle">
+<br><br>
+</div>
+<div class="top-bottom">
+<br><br>
+</div>
+</html>
