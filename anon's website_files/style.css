@@ -1,0 +1,356 @@
+/** 
+wwww wwwww      wwww  ww  ww  ww  wwww
+www   wwwwwww  wwwww  ww  ww  www  www
+ww     www      wwww      ww  wwww  ww 
+**/ 
+:root {
+    --fg-color: #ffffff;
+    --bg-color: #000;
+    --color00: #FF3694;
+    --color01: #ff00e3;
+    --color02: #2C00FF;
+    --color03: #ff8c00;
+    --color04: #ff003c;
+    --color05: #df00ff;
+    --color06: #ffd73b;
+    --color07: #c4c4c4;
+}
+body{
+    padding: 1em;
+    max-width: 2000px;
+    margin: auto;
+    font-family: 'Lora', serif;
+    color: var(--fg-color);
+	background-color: var(--bg-color);
+	background-image: url(tww.gif);
+	background-repeat: repeat-x;	
+}
+/** gradient**/
+ .gradient {
+   font-size: 4rem;
+
+            background:
+                linear-gradient(to right,
+                    orange,
+                    purple);
+            display: inline-block;
+
+            -webkit-background-clip: text;
+            background-clip: text;
+
+            color: transparent;
+        }
+.based {
+font-size: 4rem;
+	color: red;
+}
+/** szines **/
+.button2 {
+	background: transparent;
+	height: 27px;
+	font-size: 90%;
+	color: red;
+}
+button.button2:hover,
+button.custom:focus {
+  transition: .2s;
+        transform: scale(1.15);
+} 
+
+.colored {
+  color: #1e90ff
+}
+/** Music **/
+
+img.custom:hover,
+img.custom:focus {
+  transition: .2s;
+        transform: scale(1.15);
+} 
+   
+   
+.border-gradient {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+}
+.border-gradient-purple {
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d, orange);
+ }
+.content {
+    overflow: hidden;
+}
+
+.content img {
+ position: relative;
+   margin-left: 21%;
+     margin-right: 50%;
+}
+
+.content h3,
+.content p{
+    margin-left: 15px;
+    display: block;
+    margin: 2px 0 0 0;
+}
+/** Muuuusic **/
+.button3 {
+	background: transparent;
+	height: 35px;
+	font-size: 100%;
+	color: red;
+	position: relative;
+        margin-left: 21%;
+}
+button.button3:hover,
+button.button3:focus {
+	transition: .2s;
+        transform: scale(1.15);
+}
+/** Chadness **/
+.button1 {
+	background: transparent;
+	width: 60%;
+	height: 35px;
+	font-size: 70%;
+	color: pink;
+}
+button.button1:hover,
+button.button1:focus {
+	transition: .2s;
+        transform: scale(1.15);
+}
+/** Navigator **/
+:root {
+  --font: "Minecraft";
+  --branch: 1px solid var(--color07);
+}
+.bookmark-link-edit-button,
+.category-name-edit-button,
+.search-bar-edit-button {
+  visibility: hidden;
+  justify-content: left;
+}
+.bookmark-link:hover ~ .bookmark-link-edit-button,
+.category-title:hover ~ .category-name-edit-button {
+  visibility: visible;
+}
+html {
+  font-size: 20px;
+}
+body {
+
+  margin: 0;
+  padding: 0;
+}
+span {
+  color: var(--color06);
+}
+h4 {
+  display: inline;
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color05);
+}
+.prompt {
+  font-family: var(--font);
+  color: var(--color5);
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.container {
+  position: relative;
+  margin-left: 50%;
+  margin-top: 40%;
+  transform: translate(-50%, -50%);
+}
+.prompt ~ .prompt {
+  padding: 1.5rem 0 0.3125rem;
+}
+.row {
+  display: flex;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.category h4 > * {
+  white-space: nowrap;
+  display: inline;
+  justify-items: right;
+  display: inline;
+  flex-direction: row;
+}
+.category {
+  min-width: 12rem;
+  max-width: 20rem;
+}
+li.bookmark > * {
+  display: inline-block;
+}
+.tree > ul {
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.tree > h4 {
+  white-space: nowrap;
+}
+ul {
+  list-style: none;
+}
+li {
+  position: relative;
+}
+li::before,
+li::after {
+  content: "";
+  position: absolute;
+  left: -0.75rem;
+}
+li::before {
+  border-top: var(--branch);
+  top: 0.75rem;
+  width: 0.5rem;
+}
+li::after {
+  border-left: var(--branch);
+  height: 100%;
+  top: 0.25rem;
+}
+li:last-child::after {
+  height: 0.5rem;
+}
+a {
+  font-family: var(--font);
+  font-size: 1rem;
+  color: var(--color04);
+  text-decoration: none;
+  outline: none;
+}
+a:hover {
+  color: var(--color02);  
+}
+form h4 {
+  padding-left: 0.125rem;
+}  
+}
+::placeholder {
+    opacity: 0.5 !important;
+}
+/** Elements **/
+#header-quote{
+    font-family: 'Chonburi', cursive;
+    line-height: 1.5em;
+    font-size: 130%;
+}
+blockquote span{
+    margin-left: 20%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Chonburi', cursive;
+    color: var(--color03);
+}
+/** Header **/
+header{
+    max-width: 800px;
+    float:right;
+    padding: 10px;
+
+}
+header h1{
+    font-size: 300%;
+    font-family: 'Chonburi', cursive;
+}
+header h1 span{
+    color: purple;
+}
+/** Nav Bar **/
+nav{
+    padding: 5px;
+    margin: 10px;
+}
+nav a{
+    margin: 5px;
+}
+nav span{
+    margin: 10px;
+}
+/** main **/
+main{
+    padding: 10px;
+    max-width: 900px;
+    border-bottom: 1px solid var(--color00);
+}
+main img{
+	display: block;
+	margin: 0 auto;
+    max-width: 700px;
+}
+.blog-heading{
+    text-align: center;
+}
+/** List Blog **/
+#blog-list{
+	padding: 10px;
+	margin: 10px;
+}
+#blog-summary{
+	padding: 10px;
+}
+#blog-summary h3{
+	border-bottom: 1px solid white;
+	margin-bottom: 2px;
+	padding: 5px;
+}
+.subtitle{
+	font-style: italic;
+}
+}
+/** Footer **/
+footer{
+    padding: 20px;
+color: var(--color03);
+}
+/** First Media Query **/
+@media only screen and (max-width: 1300px) {
+    body{
+	max-width: 1000px;
+	margin: auto;
+    }
+    header{
+	border-bottom: 1px solid var(--fg-color);
+	margin: auto;
+	float: none;
+	text-align: center;
+    }
+}
+/** Second Media Query **/
+@media only screen and (max-width: 600px) {
+    body{
+	padding: 0.5em;
+	font-size: 85%;
+    }
+    header h1{
+	font-size: 180%;
+    }
+    h1{
+	font-size: 140%;
+    }
+    #img-gallery img{
+	max-width: 90px;
+    }
+    main img{
+	max-width: 250px;
+    }
+}
